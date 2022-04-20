@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="container">
+        <h2>标题名</h2>
+        <!-- 第一部分 -->
+        <!-- <view wx:for='{{nav}}' wx:key="index">
+            <view>
+              <span bindtap="jump">{{item.title}}</span>
+            </view>
+        </view> -->
+        <navigator url="../GDdemo/index" >
+        <view class="title">
+          <text>高德地图</text>
+        </view>
+      </navigator>
+</view>

@@ -1,0 +1,4 @@
+<!--pages/GDdemo/index.wxml-->
+<view class="container">
+ <map class="map_container"   name=""></map>
+</view>
