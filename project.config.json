@@ -20,11 +20,11 @@
     "enhance": true,
     "useMultiFrameRuntime": true,
     "showShadowRootInWxmlPanel": true,
-    "packNpmManually": true,
+    "packNpmManually": false,
     "packNpmRelationList": [
       {
-        "miniprogramNpmDistDir": "./package",
-        "packageJsonPath": "./miniprogram"
+        "miniprogramNpmDistDir": "./miniprogram/",
+        "packageJsonPath": "./package.json"
       }
     ],
     "minifyWXSS": true,

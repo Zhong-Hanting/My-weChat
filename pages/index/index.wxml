@@ -9,7 +9,7 @@
         </view> -->
         <navigator url="../GDdemo/index" >
         <view class="title">
-          <text>高德地图</text>
+          <text>腾讯地图</text>
         </view>
       </navigator>
 </view>

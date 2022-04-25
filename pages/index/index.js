@@ -6,14 +6,13 @@ Page({
    */
   data: {
     nav:[
-      {title:'高德地图1',path:'../GDdemo/index',id:1},
+      {title:'腾讯地图',path:'../GDdemo/index',id:1},
       // {title:'高德地图2',path:'123',id:2},
       // {title:'高德地图3',path:'123',id:3},
       // {title:'高德地图4',path:'123',id:4},
     ]
   },
   jump:(val)=>{
-    alert(111)
     wx.navigateTo({
       url: val,
     })

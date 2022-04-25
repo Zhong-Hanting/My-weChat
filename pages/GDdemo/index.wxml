@@ -1,4 +1,36 @@
 <!--pages/GDdemo/index.wxml-->
+<view class="head">
+  <span bindtap="editCompare" class="{{compare?'current':''}}">
+    <van-icon name="setting-o" />
+    控件
+  </span>
+  <view>
+  <view class="search-type">
+    <span  class="{{trigType=='walk'?'current':''}}"   bindtap='editType'   data-type="walk" >步行</span>
+    <span  class="{{trigType=='bike'?'current':''}}"  bindtap='editType'  data-type="bike">骑行</span>
+    <span  class="{{trigType=='bus'?'current':''}}" bindtap='editType'  data-type="bus">公交</span>
+    <span  class="{{trigType=='car'?'current':''}}" bindtap='editType'  data-type="car">驾车</span>
+  </view>
+  <view class="search-box">
+    <input type="text"  value="{{ destination }}" />
+    <van-icon name="search"  bindtap="seachLine"/>
+   </view>
+
+  </view>
+  <span>
+    图层
+  </span>
+</view>
 <view class="container">
- <map class="map_container"   name=""></map>
+  <map id="myMap"
+  show-scale='{{compare}}'
+  bindtap="clcickMap"   
+  enable-3D='{{compare}}'
+  show-compass='{{compare}}'
+  markers="{{location.markers}}" 
+   style="width:100%;height:100%;"
+   longitude="{{location.lng}}"
+   latitude="{{location.lat}}" scale='16'>
+</map>
+ 
 </view>
