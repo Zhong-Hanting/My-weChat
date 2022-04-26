@@ -7,14 +7,15 @@ Page({
   data: {
     nav:[
       {title:'腾讯地图',path:'../GDdemo/index',id:1},
-      // {title:'高德地图2',path:'123',id:2},
+      {title:'腾讯地图2',path:'../TXmap/index',id:2},
       // {title:'高德地图3',path:'123',id:3},
       // {title:'高德地图4',path:'123',id:4},
     ]
   },
   jump:(val)=>{
+    console.log(val)
     wx.navigateTo({
-      url: val,
+      url: val.target.dataset.path,
     })
   },
 

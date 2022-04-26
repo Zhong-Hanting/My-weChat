@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/GDdemo/index"
+    "pages/GDdemo/index",
+    "pages/TXmap/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -11,14 +12,12 @@
   },
   "permission": {
     "scope.userLocation": {
-      "desc":"请点击确定"
+      "desc": "请点击确定"
     }
   },
-
-
   "sitemapLocation": "sitemap.json",
   "usingComponents": {
-    "van-button":"@vant/weapp/button/index",
-    "van-icon":"@vant/weapp/icon/index"
+    "van-button": "@vant/weapp/button/index",
+    "van-icon": "@vant/weapp/icon/index"
   }
 }
