@@ -40,9 +40,31 @@
       </ul>
       <view class="card-address">
           <view class="card-address-head">
-           <text>常去地点</text>
-           <text>设置 ></text>
+            <text>常去地点</text>
+            <text>设置 ></text>
           </view>
+
+          <ul class='card-address-body'>
+              <li class="card-address-body-li">
+                <van-icon name="location-o" />
+                <span>交大花园</span>
+              </li>
+              <li class="card-address-body-li">
+                <van-icon name="location-o" />
+                <span>成都东站</span>
+                </li>
+              <li class="card-address-body-li">
+                <van-icon name="location-o" />
+                <span>滨江和城</span>
+              </li>
+              <li class="card-address-body-li">
+                <van-icon name="location-o" />
+                <span>天府广场</span>
+              </li>
+          </ul>
+      </view>
+      <view class="card-advertising">
+        <image src="../image/guanggao.png" alt=""/>
       </view>
     </view>
 </view>
